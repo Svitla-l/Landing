@@ -1,0 +1,16 @@
+@font-face {
+    font-family:Libre_Baskerville;
+  src:url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+    font-family: WisdomScript;
+    src: url(fonts/WisdomScript.otf);  
+}
+@font-face {
+    font-family:Poppins-Regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Yellowtail-Regular;
+    src: url(fonts/Yellowtail/Yellowtail-Regular.ttf);  
+}

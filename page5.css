@@ -1,0 +1,27 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.pp{
+    font-family: Libre_Baskerville;
+    font-weight: bold;
+}
+.ww{
+    font-size: 12px;
+    text-align: center;
+    font-family: Poppins-Regular;
+    font-weight: unset;
+}
+.foto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 100px;
+    box-sizing: border-box;
+    position: relative;
+    
+}

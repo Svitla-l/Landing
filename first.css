@@ -1,0 +1,122 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+@font-face {
+      font-family: WisdomScript;
+      src: url(fonts/WisdomScript.otf);  
+    }
+.contain{
+    height: 100vh;
+    }
+.fon{
+    width: 100%;
+    height: 100%;
+   background-image: url(image/first.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+.top{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+  box-sizing: border-box;
+  animation: hidePreloader;
+  background-color: hsla(231deg, 13%, 21%, .8);
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1%;
+    box-sizing: border-box;
+   }
+  .circle1{
+      background-color: #39b48b;
+      animation-duration: 6s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    } 
+    
+    
+  .txt{
+      font-size: 50px;
+      font-family: WisdomScript;
+      color:white;
+      margin-left: 15%;
+      box-sizing: border-box;
+    }
+    .span::first-letter{
+      color:red;
+    }
+@keyframes crcl{
+    form{
+       margin-left:30px;
+       background-color: lavender;
+
+    }
+    to{
+       margin-left: 50px;
+    }
+    50%{
+        background-color: lavender;
+        margin-left: 10%;
+    }
+
+}
+.circle2{
+    animation-duration: 5s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    background-color: #39b48b;
+    animation-duration: 3s;
+    animation-name: crcl;
+  } 
+  .circle3{
+    animation-duration: 5s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    background-color: #39b48b;
+    animation-duration: 3s;
+    animation-name: crcl;
+} 
+  .circle4{
+    animation-duration: 5s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    background-color: #39b48b;
+    animation-duration: 3s;
+    animation-name: crcl;
+  } 
+  .circle5{
+    animation-duration: 5s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    background-color: #39b48b;
+    animation-duration: 3s;
+    animation-name: crcl;
+  } 
+  .circle6{
+    animation-duration: 5s;
+      animation-name: crcl;
+      animation-iteration-count: infinite;
+    background-color: #39b48b;
+    animation-duration: 3s;
+    animation-name: crcl;
+  } 
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+ 

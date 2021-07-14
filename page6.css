@@ -1,0 +1,24 @@
+#outTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tea1{
+    font-family: Libre_Baskerville;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 80px;
+}
+.tea2{
+    font-size: 12px;
+    text-align: center;
+    font-family: Poppins-Regular;
+    font-weight: unset;
+}
+
+.all_tm{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
