@@ -17,8 +17,11 @@
 }
 
 .all_tm{
+    width: 100%;
     display: flex;
     flex-direction: row;
     height: 300px;
+    justify-content: space-evenly;
+
     
 }
